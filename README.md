@@ -10,6 +10,7 @@ Frontend result:
 Reference:
 
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp, diakses tanggal 15 Febuari 2024
+
 https://www.youtube.com/watch?v=7E7J2y7WV6A, YouToube Online Tutorial, Cloning Instagram Website Post Card using Html CSS 
 & Javascript | Web Design Tutorial, diakses tanggal 15 Febuari 2024
  
