@@ -1,0 +1,185 @@
+/* style elemen body */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS';
+}
+
+/* style elemen header */
+header{
+    margin: 8px;
+    background-color: #749BC2;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* style class container*/
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #F6F4EB;
+}
+/* style class card*/
+.card {
+    /* /margin:2px; */
+    margin-top: 8px;
+    width: 520px;
+    min-height: 400px;
+    background: #fff;
+    box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
+    padding: 12px;
+}
+
+/* style class top*/
+.card .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* style class userDetails*/
+.card .top .userDetails {
+    display: flex;
+    align-items: center;
+}
+/* style class profile_img*/
+.card .top .userDetails .profile_img {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 8px;
+}
+/* style class cover*/
+.cover {
+    position: absolute;
+    top : 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* style elemen h3 in class userDetails*/
+.card .top .userDetails h3 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    line-height: 0.90em;
+}
+/* style elemen span dalam elemen h3*/
+.card .top .userDetails h3 span {
+    font-size: 0.75em;
+}
+/* style class dot*/
+.dot {
+    transform:  scale(0.6);
+    cursor: pointer;
+}
+/* style class imgbx*/
+.imgbx {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    margin: 10px 0 15px;
+    cursor: pointer;
+}
+/* style class actionBtn*/
+.actionBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* style elemen img dalam class actionBtn*/
+.actionBtn img {
+    max-width: 24px;
+    cursor: pointer;
+}
+/* style elemen img dalam class left actionBtn*/
+.actionBtn .left img {
+    margin-right: 8px;
+}
+/* style class likes*/
+.likes {
+    font-weight: 500;
+    margin: 5px;
+    font-size: 16px;
+    color: #000;
+}
+/* style class message*/
+.messages {
+    font-weight: 400;
+    margin: 5px;
+    color: #000;
+    line-height: 1.5em;
+}
+/* style elemen b dalam class mesagge*/
+.messages b {
+    color: #000;
+}
+/* style elemen span dalam class mesagge*/
+.messages span {
+    color: rgb(18, 18, 237);
+    cursor: pointer;
+}
+/* style class commenst*/
+.comments {
+    margin-top: 10px;
+    font-weight: 400;
+    color: #999;
+}
+/* style class addCommenst*/
+.addComments {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+/* style class userImg dalam class addCommenst*/
+.addComments .userImg {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 8px;
+}
+/* style class text*/
+.text {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #262626;
+}
+/* style class postTime*/
+.postTime {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #777;
+}
+
+
+/*----------------------- CSS Responsive Mobile App-----------------------*/ 
+@media only screen and (max-width: 720px) {
+    .card, header{
+        width: 100%;
+        margin: 8px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .card, header {
+        margin: 8px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .card, header {
+        margin: 8px;
+        width: 100%;
+    }
+}
+
