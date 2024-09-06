@@ -11,6 +11,6 @@ Reference:
 
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp, accessed 15 February 2024
 
-https://www.youtube.com/watch?v=7E7J2y7WV6A, YouToube Online Tutorial, Cloning Instagram Website Post Card using Html CSS 
-& Javascript | Web Design Tutorial, accessed 15 February 2024
+https://www.youtube.com/watch?v=7E7J2y7WV6A, 
+YouToube Online Tutorial, Cloning Instagram Website Post Card using Html CSS & Javascript | Web Design Tutorial, accessed 15 February 2024
  
